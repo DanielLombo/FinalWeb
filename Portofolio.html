@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+<div class="background-image">
+    <nav>
+        <ul>
+            <div class="container">
+            <li><a href="#home"><button onclick="myFunctionHome()">Home</button></a></li>
+            <li><a href="#about"><button onclick="myFunctionAbout()">About</button></a></li>
+            <li><a href="#porto"><button onclick="myFunctionPorto()">Portofolio</button></a></li>
+            <li><a href="#blog"><button onclick="myFunctionBlog()">Blog</button></a></li>
+            <li><a href="#team"><button onclick="myFunctionTeam()">Team</button></a></li>
+            <li><a href="#contact"><button onclick="myFunctionContact()">Contact</button></a></li>
+           </div>
+        </ul>
+    </nav>
+    <section id="home">
+        <img class ="homewallpaper"src="asset/home_wallpaper.png" alt="home_wallpaper">
+        <div class="home1">
+            <nav>
+                <ul>
+                    <li>
+                        <h1>Welcome my friend</h1>
+                        <p>Ini Adalah Web Portofolio Pertama dari pelatihan hacktiv class for fundamental web development in june 2022. saat
+                            ini saya sedang mengikuti kelas hacktiv dan membuat final project berupa web portofolio.
+                        </p>
+            
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section hidden id="about">
+        <img class="aboutwallpaper" src="asset/aboutgif.gif" alt="aboutwallpaper">
+        <div class="home2">
+        <nav>
+            <ul>
+                <li>
+                    <h1>About me</h1>
+                    <p>Namaku Daniel..Kalian bisa memanggilku Daniel, Aku anak tunggal dan merupakan lulusan sarjana Ilmu komputer dibidang teknik informatika.
+                    </p>
+                    <p>Umurmu sekarang masih 22 tahun.<br> zodiak : capricorn<br>
+                         aku tertarik di dunia esport khususnya di bidang Mobile Legends, UI/UX, dan Web Programming<br>Aku sering mengikuti kompetisi mobile legends, dan judul skripsiku juga berkaitan dengan esports.<br>
+                        Aku juga sering menonton anime seperti One piece, Naruto, Kimetsu no yaiba.</p>
+        
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </section>
+
+    <section hidden id="porto">
+        <img class="aboutportofolio" src="asset/portofoliowallpaper.jpg" alt="aboutporto">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h2 id="h2left"style="color: #11e8ae">SKILL</h2>
+                <h2 id="h2right"style="color: #11e8ae">HOBBY</h2>
+              </div>
+              <div class="flip-card-back">
+                <p id="h2left" style="color: #11e8ae; font-style: italic; font-size: larger;">UI/UX<br>Figma<br>C language<br> HTML & CSS</P>
+                    <p id="h2right" style="color: #11e8ae; font-style: italic; font-size: larger;">PC gaming<br>Mobile gaming<br>Badminton<br> Coding</P>
+                    </div>
+              </div>
+            </div>
+    </section>
+
+    <section hidden id="blog">
+        <img id="blogwallpaper" src="asset/blogwallpaper.png" width="500px" height="350px" alt="ahay">
+        <div class="home4">
+            <style>
+                a{
+                    font-size: larger;
+                }
+            </style>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://otakudesu.watch/">Visit otakudesu free anime download and streaming</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section hidden id="team">
+        <div class="card">
+            <img src="asset/kokushibou.jpg" alt="Avatar" style="width:26.5%" >
+            <div class="container">
+              <h4><b>Kokushibou</b></h4>
+              <p>Uppermoon 1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="asset/akaza.jpg" alt="Avatar" style="width:26.5%">
+            <div class="container">
+              <h4><b>Akaza</b></h4>
+              <p>Uppermoon 3</p>
+            </div>
+          </div>
+    </section>
+
+    <section hidden id="contact">
+        <img class="aboutcontact" src="asset/contact.gif" alt="contact">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h1 style="color: #11e8ae">Contact me</h1>
+              </div>
+              <div class="flip-card-back">
+                <p id="" style="color: #11e8ae; font-style: italic; font-size: larger;">0822xxxxxxxx<br><br>example@email.com<br><br>IG : xxxxxx<br><br>FB : xxxxxxx</P>
+                    
+             </div>
+              </div>
+            </div>
+    </section>
+
+</div>
+
+    <script src="Portofolio.js"></script>
+
+
+</body>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .background-image{
+        background-image: url(asset/black.png);
+        background-size: cover;
+        height: 100vh;
+    }
+    .home1{
+        border: 1px solid #11e8ae;
+        outline-style: solid;
+        outline-color: #11e8ae;
+        height: fit-content;
+        width: 14.5cm;
+        position: fixed;
+        border-radius: 4px;
+    }
+    .homewallpaper{
+        width: 25.5cm;
+        height: 17.5cm;
+        position: relative;
+        float: right;
+        border-radius: 6cm;
+        outline-color: rgb(205, 21, 226);
+        outline-style:groove;
+    }
+    .home2{
+        border: 1px solid #11e8ae;
+        outline-style: solid;
+        height: fit-content;
+        width: 14.5cm;
+        position: fixed;
+        border-radius: 4px;
+    }
+    .aboutwallpaper{
+        width: 25.5cm;
+        height: 17.5cm;
+        position: relative;
+        float: right;
+        border-radius: 6cm;
+    }    
+    .aboutportofolio{
+        width: 25.5cm;
+        height: 17.5cm;
+        position: relative;
+        float: right;
+        border-radius: 6cm;
+    }    
+    .aboutcontact{
+        width: 25.5cm;
+        height: 17.5cm;
+        float: right;
+        border-radius: 6cm;
+    } 
+    .home4{
+        border: 1px solid #11e8ae;
+        outline-style: solid;
+        height: fit-content;
+        width: fit-content;
+        position: fixed;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .blogwallpaper{
+        width: 25.5cm;
+        height: 17.5cm;
+        position: relative;
+        float: right;
+        
+    }
+</style>
+</html>
