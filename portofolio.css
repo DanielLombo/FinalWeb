@@ -1,3 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background-image{
+    background-image: url(asset/black.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.home1{
+    border: 1px solid #11e8ae;
+    outline-style: solid;
+    outline-color: #11e8ae;
+    height: fit-content;
+    width: 14.5cm;
+    position: fixed;
+    border-radius: 4px;
+}
+
+.homewallpaper{
+    width: 25.5cm;
+    height: 17.5cm;
+    position: relative;
+    float: right;
+    border-radius: 6cm;
+    outline-color: rgb(205, 21, 226);
+    outline-style:groove;
+}
+
+.home2{
+    border: 1px solid #11e8ae;
+    outline-style: solid;
+    height: fit-content;
+    width: 14.5cm;
+    position: fixed;
+    border-radius: 4px;
+}
+
+.aboutwallpaper{
+    width: 25.5cm;
+    height: 17.5cm;
+    position: relative;
+    float: right;
+    border-radius: 6cm;
+}
+
+.aboutportofolio{
+    width: 25.5cm;
+    height: 17.5cm;
+    position: relative;
+    float: right;
+    border-radius: 6cm;
+}
+
+.aboutcontact{
+    width: 25.5cm;
+    height: 17.5cm;
+    float: right;
+    border-radius: 6cm;
+}
+
+.home4{
+    border: 1px solid #11e8ae;
+    outline-style: solid;
+    height: fit-content;
+    width: fit-content;
+    position: fixed;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.blogwallpaper{
+    width: 25.5cm;
+    height: 17.5cm;
+    position: relative;
+    float: right;
+    
+}
+
+
+
+
 body {
     padding: 0;
     margin: 0;
@@ -23,23 +108,14 @@ nav {
     margin: 0;
 }
 
-nav ul {
-    list-style-type: none;
-}
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    margin-left: 24px;
-    padding: 7.5px;
-}
 
 
 #home {
     color: #11e8ae ;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 #about {
@@ -60,9 +136,25 @@ nav ul li a {
     font-size: large;
     position: absolute;
     right: 8cm;
+    color: #00ffbb;
 
 }
 #h2right{
+    font-style: italic;
+    font-size: large;
+    position: absolute;
+    left: 8cm;
+    color: #00ffbb;
+
+}
+#ph2left{
+    font-style: italic;
+    font-size: large;
+    position: absolute;
+    right: 8cm;
+
+}
+#ph2right{
     font-style: italic;
     font-size: large;
     position: absolute;
